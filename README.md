@@ -20,3 +20,10 @@
 ![z](https://github.com/632456/hw-02/blob/main/img/1_1.png)
 
 
+Последовательность команд
+git status
+git add *
+git diff
+git diff --staged
+git commit -m "1_1"
+git push
