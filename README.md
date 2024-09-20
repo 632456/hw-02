@@ -55,10 +55,11 @@
 
 ### Последовательность команд
 
-git status
-git add *
-git diff
-git diff --staged
-git commit -m "1_1"
-git push
+1. git status
+2. git add *
+3. git diff
+4. git diff --staged
+5. git commit -m "1_1"
+6. git push
+
 
