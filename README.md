@@ -20,7 +20,8 @@
 ![z](https://github.com/632456/hw-02/blob/main/img/1_1.png)
 
 
-Последовательность команд
+### Последовательность команд
+
 git status
 git add *
 git diff
