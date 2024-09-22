@@ -12,9 +12,10 @@
 
 ### Решение 
 
-![z](https://github.com/632456/hw-02/blob/main/Disaster recovery и Keepalived/1_1.jpg)
-![z](https://github.com/632456/hw-02/blob/main/Disaster recovery и Keepalived/1_2.jpg)
-#### Схема pkt: [shema.pkt](https://github.com/632456/hw-02/blob/main/Disaster recovery и Keepalived/shema.pkt)
+![z](https://github.com/632456/hw-02/blob/main/Disaster/1_1.jpg)
+![z](https://github.com/632456/hw-02/blob/main/Disaster/1_2.jpg)
+
+#### Схема pkt: [shema.pkt](https://github.com/632456/hw-02/blob/main/Disaster/shema.pkt)
 
 
 
