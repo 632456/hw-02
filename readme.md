@@ -12,9 +12,10 @@
 
 ### Решение 
 
-![z](https://github.com/632456/hw-02/blob/main/img/z1_1.png)
-![z](https://github.com/632456/hw-02/blob/main/img/z1_2.png)
-![z](https://github.com/632456/hw-02/blob/main/img/z1_3.png)
+![z](https://github.com/632456/hw-02/blob/main/Disaster recovery и Keepalived/1_1.jpg)
+![z](https://github.com/632456/hw-02/blob/main/Disaster recovery и Keepalived/1_2.jpg)
+#### Схема pkt: [shema.pkt](https://github.com/632456/hw-02/blob/main/Disaster recovery и Keepalived/shema.pkt)
+
 
 
 ### Задание 2
