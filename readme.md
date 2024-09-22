@@ -31,7 +31,16 @@
 
 ### Решение 
 
-![z](https://github.com/632456/hw-02/blob/main/img/z2_1.png)
-![z](https://github.com/632456/hw-02/blob/main/img/z2_2.png)
-![z](https://github.com/632456/hw-02/blob/main/img/z2_3.png)
+![z](https://github.com/632456/hw-02/blob/main/Disaster/2_1.png)
+![z](https://github.com/632456/hw-02/blob/main/Disaster/2_2.png)
+![z](https://github.com/632456/hw-02/blob/main/Disaster/2_3.png)
+![z](https://github.com/632456/hw-02/blob/main/Disaster/2_4.png)
+![z](https://github.com/632456/hw-02/blob/main/Disaster/2_5.png)
+
+#### bash-скрипт: [check.sh](https://github.com/632456/hw-02/blob/main/Disaster/check.sh)
+#### keepalived-backup.conf: [keepalived-backup.conf](https://github.com/632456/hw-02/blob/main/Disaster/keepalived-backup.conf)
+#### keepalived-master.conf: [keepalived-master.conf](https://github.com/632456/hw-02/blob/main/Disaster/keepalived-master.conf)
+
+
+
 
