@@ -7,12 +7,8 @@
 - На проверку направить скриншот с командой и результатом ее выполнения
 
 ### *Решение:*
-```bash
+
 rsync -a --checksum --verbose --delete --progress --exclude '.*' /home/user/ /tmp/backup
-
----
-
-### Решение 
 
 ![z](https://github.com/632456/hw-02/blob/main/rsync/rs1.png)
 
@@ -26,5 +22,5 @@ rsync -a --checksum --verbose --delete --progress --exclude '.*' /home/user/ /tm
 ### *Решение:*
 
 ### Файл crontab: [crontab](https://github.com/632456/hw-02/blob/main/rsync/crontab)
-![z](https://github.com/632456/hw-02/blob/main/rsync/rs1.png)
+![z](https://github.com/632456/hw-02/blob/main/rsync/rs2.png)
 
