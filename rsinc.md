@@ -14,7 +14,7 @@ rsync -a --checksum --verbose --delete --progress --exclude '.*' /home/user/ /tm
 
 ### Решение 
 
-![z](https://github.com/632456/hw-02/blob/main/rsinc/rs1.png)
+![z](https://github.com/632456/hw-02/blob/main/rsync/rs1.png)
 
 ### Задание 2
 - Написать скрипт и настроить задачу на регулярное резервное копирование домашней директории пользователя с помощью rsync и cron.
@@ -23,4 +23,8 @@ rsync -a --checksum --verbose --delete --progress --exclude '.*' /home/user/ /tm
 - Резервная копия размещается локально, в директории `/tmp/backup`
 - На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
+### *Решение:*
+
+### Файл crontab: [crontab](https://github.com/632456/hw-02/blob/main/rsync/crontab)
+![z](https://github.com/632456/hw-02/blob/main/rsync/rs1.png)
 
