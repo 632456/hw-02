@@ -21,7 +21,7 @@
 *Приведите скриншот systemctl status memcached, где будет видно, что memcached запущен.*
 
 ### *Решение:*
-![z](https://github.com/632456/hw-02/blob/main/redis/redis2.png)
+![z](https://github.com/632456/hw-02/blob/main/Redis/redis2.png)
 
 ### Задание 3. Удаление по TTL в Memcached
 
@@ -30,7 +30,7 @@
 *Приведите скриншот, на котором видно, что спустя 5 секунд ключи удалились из базы.*
 
 ### *Решение:*
-![z](https://github.com/632456/hw-02/blob/main/redis/redis3.png)
+![z](https://github.com/632456/hw-02/blob/main/Redis/redis3.png)
 
 ### Задание 4. Запись данных в Redis
 
@@ -39,7 +39,7 @@
 *Через redis-cli достаньте все записанные ключи и значения из базы, приведите скриншот этой операции.*
 
 ### *Решение:*
-![z](https://github.com/632456/hw-02/blob/main/redis/redis4.png)
+![z](https://github.com/632456/hw-02/blob/main/Redis/redis4.png)
 
 
 
