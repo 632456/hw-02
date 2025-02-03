@@ -1,7 +1,5 @@
 # Домашнее задание к занятию "`Уязвимости и атаки на информационные системы`" - `Исаков Михаил`
 
-Задание можно выполнить как в любом IDE, так и в командной строке.
-
 ### Задание 1
 
 Скачайте и установите виртуальную машину Metasploitable: https://sourceforge.net/projects/metasploitable/.
@@ -29,7 +27,7 @@
 ![z](https://github.com/632456/hw-02/blob/main/ib1/1.png)
 
 - Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
-#### 1. vsftpd 2.3.4: [Backdoor Command Execution (Metasploit)](https://www.exploit-db.com/exploits/17491)
+#### 1. [vsftpd 2.3.4](https://www.exploit-db.com/exploits/17491)
 #### 2. UnrealIRCd 3.2.8.1: [Backdoor Command Execution (Metasploit)](https://www.exploit-db.com/exploits/16922)
 #### 3. PostgreSQL 8.3.6: [Low Cost Function Information Disclosure](https://www.exploit-db.com/exploits/32847)
 
