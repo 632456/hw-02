@@ -28,8 +28,8 @@
 
 - Какие уязвимости были вами обнаружены? (список со ссылками: достаточно трёх уязвимостей)
 #### 1. [vsftpd 2.3.4](https://www.exploit-db.com/exploits/17491)
-#### 2. UnrealIRCd 3.2.8.1: [Backdoor Command Execution (Metasploit)](https://www.exploit-db.com/exploits/16922)
-#### 3. PostgreSQL 8.3.6: [Low Cost Function Information Disclosure](https://www.exploit-db.com/exploits/32847)
+#### 2. [UnrealIRCd 3.2.8.1](https://www.exploit-db.com/exploits/16922)
+#### 3. [PostgreSQL 8.3.6](https://www.exploit-db.com/exploits/32847)
 
 ---
 
