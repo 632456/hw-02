@@ -103,9 +103,9 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 `terraform plan` сверяем что все верно и запускаем процесс поднятия инфраструктуры  командой `terraform apply`  
 в конце выполнения получаем данные output получение которые мы прописывали в файле **outputs.tf**  
 
-![z](https://github.com/632456/hw-02/tree/main/diplom-scr/1.PNG)
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/1.PNG)
 
 после завершения работы **terraform** проверяем в web консоли YC созданную инфраструктуру.  Сервера WEB-1 и WEB-2 созданы в разных зонах.
 
-![z](https://github.com/632456/hw-02/tree/main/diplom-scr/2.PNG)
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/1.PNG)
 
