@@ -182,5 +182,123 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/17.PNG)
 
-11111
+## Ansible  
 
+### <a id="cfg">Установка и настройка ansible</a>  
+
+устанавливаем ***ansible*** на локальном хосте где работали с ***terraform***  и настраиваем его на работу через ***bastion***  
+
+**файл конфигурации**
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/18.PNG) 
+
+**файл inventory**
+
+создаем файл hosts.ini c использованием FQDN имен серверов вместо ip  
+(т.к. DNS имя для ВМ bastion не регистрировалось глобально, то я просто использовал iр для доступа из интернета)  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/19.PNG)
+
+**проверяем доступность ВМ используя модуль ping**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/20.PNG)
+
+
+### <a id="web">Установка NGINX и загрузка сайта</a>  
+
+**ставим nginx**  
+запускаем playbook установки Nginx с созданием web страницы  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/21.PNG)
+
+**проверяем доступность сайта в браузере по публичному ip адресу Load Balancer**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/22.PNG)
+
+**делаем запрос curl -v 158.160.163.89:80**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/23.PNG)
+
+**проверяем работу Load Balancer в web консоли YC**  
+
+видим что меняется ip backend, значит балансировщик работает.  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/24.PNG)
+
+### <a id="zabbix">Мониторинг</a>  
+
+**установка Zabbix сервера**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/25.PNG)
+
+**проверяем доступность frontend zabbix сервера**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/26.PNG)
+
+**установка Zabbix агентов на web сервера**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/27.PNG)
+
+**проверяем статус служб zabbix agent на web серверах**  
+WEB-1  
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/28.PNG)
+
+WEB-2  
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/29.PNG)
+
+**добавляем хосты используя FQDN имена в zabbix сервер и настраиваем дашборды**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/30.PNG)
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/31.PNG)
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/32.PNG)
+
+## Установка стека ELK для сбора логов  
+
+### <a id="elastic">Установка Elasticsearch</a>  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/33.PNG)
+
+**Проверяем статус Elasticsearch**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/34.PNG)
+
+### <a id="kibana">Установка Kibana</a>  
+
+**устанавливаем Kibana**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/35.PNG)
+
+**проверяем что Kibana работает**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/36.PNG)
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/37.PNG)
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/38.PNG)
+
+### <a id="filebeat">Установка Filebeat</a>  
+
+**Устанавливаем Filebeat на web сервера**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/39.PNG)
+
+**проверяем статус службы filebeat на серверах**  
+WEB-1  
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/40.PNG)
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/41.PNG)
+
+
+WEB-2  
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/42.PNG)
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/43.PNG)
+
+**Проверяем в Kibana что Filebeat доставляет логи в Elasticsearch**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/44.PNG)
+
+
+---
