@@ -107,5 +107,5 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 после завершения работы **terraform** проверяем в web консоли YC созданную инфраструктуру.  Сервера WEB-1 и WEB-2 созданы в разных зонах.
 
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/1.PNG)
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/2.PNG)
 
