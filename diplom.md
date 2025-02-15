@@ -155,7 +155,6 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/11.PNG)
 
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/12.PNG)
 
 **Создаем HTTP router**  
 
