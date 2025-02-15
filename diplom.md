@@ -99,19 +99,13 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 Поднимаем инфраструктуру в Yandex Cloud используя **terraform**  
 
-в целях безопасности указываем `token id, cloud id и folder id` через задание переменных текущего сеанса в консоли подставляя свои ***id*** в команды  
-```
-export YC_TOKEN=
-export YC_CLOUD_ID=
-export YC_FOLDER_ID=
-```
-далее проверяем правильность конфигурации командой
+Проверяем правильность конфигурации командой
 `terraform plan` сверяем что все верно и запускаем процесс поднятия инфраструктуры  командой `terraform apply`  
 в конце выполнения получаем данные output получение которые мы прописывали в файле **outputs.tf**  
 
-![output](https://github.com/AI-Savin/Netology_Diplom/assets/149881259/fa4cadcc-6960-4d50-b26a-fb09f56877c4)  
+![z](https://github.com/632456/hw-02/tree/main/diplom-scr/1.PNG)
 
 после завершения работы **terraform** проверяем в web консоли YC созданную инфраструктуру.  Сервера WEB-1 и WEB-2 созданы в разных зонах.
 
-![VM](https://github.com/AI-Savin/Netology_Diplom/assets/149881259/20547ee8-e272-4fd9-a294-b920226be8d2)  
+![z](https://github.com/632456/hw-02/tree/main/diplom-scr/2.PNG)
 
