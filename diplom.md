@@ -215,7 +215,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/22.PNG)
 
-**делаем запрос curl -v 158.160.163.89:80**  
+**делаем запрос curl -v 158.160.135.0:80**  
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/23.PNG)
 
