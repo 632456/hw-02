@@ -197,11 +197,11 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 создаем файл hosts.ini c использованием FQDN имен серверов вместо ip  
 (т.к. DNS имя для ВМ bastion не регистрировалось глобально, то я просто использовал iр для доступа из интернета)  
 
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/19.PNG)
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/20.PNG)
 
 **проверяем доступность ВМ используя модуль ping**  
 
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/20.PNG)
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/19.PNG)
 
 
 ### <a id="web">Установка NGINX и загрузка сайта</a>  
