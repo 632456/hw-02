@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: derload
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCm9IOremh1ymRNvFYyreBQHmljhodGJjF6ls0YpMk1GP1dTzFpBMohF9zIi+1Nq2nUUqT6oXzapHxHvZIBzfVQTYRNsnchRHZZwSaEpE59YTzbCPXhJOpggZxn09vDXMndklN5zi8T62Cv1o80ixrYi5NLoyBn9AxeSE6uzrBoxfGpj9KTJEpoBbJdnF47rLP2U87Wq1JHPCdeIsYnR4YdiYPXyPXnbbhXIheGd5BGkinC9b/psf5oW22JIaaLOlDTVrWHL1sPVWTTvREJbM/91/+bSHGxfJmC7H2AuNGgIGabvvvsdxU/Sf0z/WVJsjQuUtvMlwd+b2MrLUPZZuMBaJr6HBIIVihMn2CfDTNMz73ER1eL8HmZSHrd2pw5Ho48kqlHWittOS2dSL9/VzZbZjCb99qx6Kfqqswf1ITuYkw+euIWOTF8XF34VMJC9C822CeK+VS+ZC4MYV65NCJuf95KUKIsSJTbRM1oE+ye13Q4EfpQOJbH/2GKix3CY3k= user@user-VirtualBox
