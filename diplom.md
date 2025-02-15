@@ -109,3 +109,76 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/2.PNG)
 
+### <a id="net">Сеть</a>  
+
+ **VPC и subnet** 
+
+создаем 1 VPC с публичными и внутренними подсетями и таблицей маршрутизации для доступа к интернету ВМ находящихся внутри сети за Бастионом который будет выступать в роли интернет-шлюза.  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/3.PNG) 
+
+### <a id="group">Группы безопасности</a>  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/4.PNG)
+
+**Группы безопасности_LoadBalancer**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/5.PNG)
+
+**Группы безопасности_internal** с разрешением любого трафика между ВМ кому присвоена данная группы безопасности
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/6.PNG)
+
+**Группы безопасности_bastion** c с открытием только 22 порта для работы SSH  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/7.PNG)
+
+
+**Группы безопасности_kibana** c открытым портом 5601 для доступа c интернета к Fronted Kibana  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/8.PNG)
+
+**Группы безопасности_zabbix** с открытым портом 80 и 10051 для доступа с интернета к Fronted Zabbix и работы Zabbix agent  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/9.PNG)
+
+### <a id="balancer">Load Balancer</a>  
+
+**Создаем Target Group**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/10.PNG)
+
+**Создаем Backend Group**  
+
+Настраиваем backends на target group, ранее созданную, healthcheck на корень (/) и порт 80, протокол HTTP.  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/11.PNG)
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/12.PNG)
+
+**Создаем HTTP router**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/13.PNG)
+
+**Создаем Application load balancer**  
+
+для распределения трафика на веб-сервера созданные ранее. Указываем HTTP router, созданный ранее, задаем listener тип auto, порт 80.  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/14.PNG)
+
+**карта балансировки**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/15.PNG)
+
+### <a id="snapshot">Резервное копирование</a>  
+
+**snapshot**  
+
+создаем в terraform блок с расписанием snapshots  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/16.PNG)
+
+**проверяем на следующий день что снимки создались по расписанию**  
+
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/17.PNG)
+
