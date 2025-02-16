@@ -8,7 +8,7 @@
 
   - name: Установка пакета kibana
     apt:
-      deb: "https://mirror.yandex.ru/mirrors/elastic/7/pool/main/k/kibana/kibana-7.15.1-amd64.deb"
+      deb: "https://mirror.yandex.ru/mirrors/elastic/7/pool/main/k/kibana/kibana-7.17.1-amd64.deb"
 
   - name: Копируем конфигурационный файл kibana
     template:
