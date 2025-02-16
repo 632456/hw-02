@@ -251,9 +251,6 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/33.PNG)
 
-**Проверяем статус Elasticsearch**  
-
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/34.PNG)
 
 ### <a id="kibana">Установка Kibana</a>  
 
