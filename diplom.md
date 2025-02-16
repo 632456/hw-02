@@ -258,31 +258,11 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/35.PNG)
 
-**проверяем что Kibana работает**  
-
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/36.PNG)
-
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/37.PNG)
-
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/38.PNG)
-
 ### <a id="filebeat">Установка Filebeat</a>  
 
 **Устанавливаем Filebeat на web сервера**  
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/39.PNG)
-
-**проверяем статус службы filebeat на серверах**  
-WEB-1  
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/40.PNG)
-
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/41.PNG)
-
-
-WEB-2  
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/42.PNG)
-
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/43.PNG)
 
 **Проверяем в Kibana что Filebeat доставляет логи в Elasticsearch**  
 
