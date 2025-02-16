@@ -154,6 +154,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 Настраиваем backends на target group, ранее созданную, healthcheck на корень (/) и порт 80, протокол HTTP.  
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/11.PNG)
+![z](https://github.com/632456/hw-02/blob/main/diplom-scr/12.PNG)
 
 
 **Создаем HTTP router**  
