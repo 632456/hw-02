@@ -98,7 +98,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/1.PNG)
 
-после завершения работы **terraform** проверяем в web консоли YC созданную инфраструктуру.  Сервера WEB-1 и WEB-2 созданы в разных зонах.
+после завершения работы **terraform** проверяем в web консоли yandex cloud созданную инфраструктуру.  Сервера WEB-1 и WEB-2 созданы в разных зонах.
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/2.PNG)
 
@@ -126,11 +126,11 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/7.PNG)
 
-**Группы безопасности_kibana** c открытым портом 5601 для доступа c интернета к Fronted Kibana  
+**Группы безопасности_kibana** c открытым портом 5601 для доступа c интернета к Kibana  
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/8.PNG)
 
-**Группы безопасности_zabbix** с открытым портом 80 и 10051 для доступа с интернета к Fronted Zabbix и работы Zabbix agent  
+**Группы безопасности_zabbix** с открытым портом 80 и 10051 для доступа с интернета к Zabbix и работы Zabbix agent  
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/9.PNG)
 
@@ -186,7 +186,7 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 **файл inventory**
 
 создаем файл hosts.ini c использованием FQDN имен серверов вместо ip  
-(т.к. DNS имя для ВМ bastion не регистрировалось глобально, то я просто использовал iр для доступа из интернета)  
+(т.к. DNS имя для ВМ bastion не регистрировалось глобально, то используем iр для доступа из интернета)  
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/20.PNG)
 
@@ -260,5 +260,5 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/44.PNG)
 
-
+P/s В связи с переводом ВМ на непрерывную работу, для сдачи руководителю скрины с IP поменялись.
 ---
