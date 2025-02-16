@@ -134,7 +134,6 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/7.PNG)
 
-
 **Группы безопасности_kibana** c открытым портом 5601 для доступа c интернета к Fronted Kibana  
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/8.PNG)
@@ -155,7 +154,6 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/11.PNG)
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/12.PNG)
-
 
 **Создаем HTTP router**  
 
@@ -204,7 +202,6 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/19.PNG)
 
-
 ### <a id="web">Установка NGINX и загрузка сайта</a>  
 
 **ставим nginx**  
@@ -239,13 +236,6 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 **установка Zabbix агентов на web сервера**  
 
 ![z](https://github.com/632456/hw-02/blob/main/diplom-scr/27.PNG)
-
-**проверяем статус служб zabbix agent на web серверах**  
-WEB-1  
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/28.PNG)
-
-WEB-2  
-![z](https://github.com/632456/hw-02/blob/main/diplom-scr/29.PNG)
 
 **добавляем хосты используя FQDN имена в zabbix сервер и настраиваем дашборды**  
 
